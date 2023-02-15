@@ -1,13 +1,12 @@
-CÓDIGO FONTE DO SCRIPT
+//CÃ“DIGO FONTE DO SCRIPT
 
 start mal....exe
 start windowframe.exe
 
 
-
 _________________________________________________________________________
 
-CÓDIGO FONTE DO "malware"
+//CÃ“DIGO FONTE DO "malware"
 
 #include <iostream>
 #include <cstdio>
@@ -16,13 +15,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Nao da pra colocar acento aqui, leiam tudo ai vai\n";
-    cout << "So pra constar, nao tem nenhum malware!!!\n";
-    cout << "Esse jogo que abriu representa o software que a pessoa baixou\n";
-    cout << "E o cmd (onde vcs estao lendo isso), representa o malware\n";
     cout << "Nao da pra colocar acento aqui\n";
+    cout << "So para constar, nao tem nenhum malware!!!\n";
+    cout << "Esse .pdf que abriu representa o software/arquivo que a pessoa baixou\n";
+    cout << "E o cmd (onde vcs estao lendo isso), representa o malware de forma visual\n";
     cout << "\n";
-    cout << "O malware esta em funcionamento...\n";
+    cout << "...O malware esta em funcionamento...\n";
     getchar();
     return 0;
 }
